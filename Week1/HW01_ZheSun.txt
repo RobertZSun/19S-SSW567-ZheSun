@@ -1,0 +1,17 @@
+1£¬What challenges did you encounter with this assignment, if any? 
+during the method coding part, that was fine, but the testing part, there were some issure occured, when I Initialize a triangle class which will raise an exception, over there, I can not catch the exception, by using assertRaise, I cannot pass the test, but later I googled, and found another solution by using try except, not just using one simple assertRaises(). And that finally works.
+
+2, What did you think about the requirements specification for this assignment?
+not adequate enough, because what if the value given are not correct for the class to form a actual triangle, the whole requirement is based on there is an existing triangle, but what if it is not at all, those things should be taken into consideration as well.
+
+3, What challenges did you encounter with the tools?
+assertRaise() function in unittest
+
+4, Describe the criteria you used to determine that you had sufficient test cases, i.e. how did you know you were done?
+due to any situation, that can occur in a reality world.
+if the value of the sides have been assigned accuately?
+are the values of those sides able to form a real triangle?
+whether the triangle a scalene right triangles or a scalene triangles?
+whether the triangle a isosceles right triangles or a isosceles triangles?
+whether the triangle a equilateral triangles?
+So take all account into consideration, after passing all the tests, I thought my work had done
